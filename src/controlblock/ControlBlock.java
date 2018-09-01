@@ -14,6 +14,8 @@ import java.io.FileNotFoundException;
 import dialoguser.ModalDialogExit;
 
 /**
+ * Utility class to store of methods for 
+ * processing some standart events
  * Вспомогательный класс для хранения методов
  * обработки некоторых стандартных событий
  * 
@@ -23,6 +25,9 @@ import dialoguser.ModalDialogExit;
 public class ControlBlock {
     
     /**
+     * Method for choosing of file by using standart
+     * class javafx.FileChooser and filter of file
+     * extension javafx.FileChooser.ExtensiontFilter
      * Метод выбора файла с использованием стандартного
      * класса javafx.FileChooser и фильтра по расширению
      * javafx.FileChooser.ExtensionFilter.
@@ -49,8 +54,10 @@ public class ControlBlock {
     }
     
     /**
-     * Метод чтения текстового файла заданной кодировки и 
-     * вывода текста на экран
+     * Метод чтения текстового файла заданной кодировки
+     * и вывода текста на экран
+     * Method for reading text file with defined encoding
+     * and text output to the screen
      * 
      * @param name
      * @param txtArea
@@ -81,6 +88,7 @@ public class ControlBlock {
     
     /**
      * Метод закрытия GUI-приложения на javafx.
+     * Method for closing javafx GUI-application 
      *
      * @param st
      */
